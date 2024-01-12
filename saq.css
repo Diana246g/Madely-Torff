@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito&family=Playfair+Display:wght@700&family=Raleway:wght@500&display=swap');
+
+:root {
+	--gray1: #333333;
+	--gray3: #25282b;
+	--gray2: #828282;
+	--text-N: Nunito;
+	--text-PfD: Playfair Display;
+}
+
+body {
+	margin: 0;
+	bottom: 0;
+	width: 1440px;
+	background-color: #f9faff;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	/* position: relative; */
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 120px;
+	/* position: absolute; */
+}
+
+nav p {
+	display: flex;
+	font-family: Comfortaa;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.header--nav {
+	display: flex;
+	flex-direction: row;
+	gap: 48px;
+}
+
+.header--nav li {
+	font-family: Raleway;
+}
+
+.image {
+	right: 0;
+	/* position: absolute; */
+}
+
+.intro {
+	/* position: absolute; */
+	top: 111;
+	margin: 111px 120px 0;
+	width: 486px;
+}
+
+.intro--UI {
+	color: #fdc435;
+	font-size: 20px;
+}
+
+.content--title {
+	line-height: 76.8px;
+	font-size: 64px;
+	color: var(--gray1);
+	margin-top: 12px;
+}
+
+.content--subhaedline {
+	font-size: 24px;
+	color: var(--gray2);
+	margin: 32px 0;
+}
+
+.primary,
+.buttons button:last-child {
+	font-size: 18px;
+	width: 115px;
+	height: 43px;
+	padding: 8px 24px;
+	border-radius: 8px;
+	color: var(--gray3);
+}
+
+.primary {
+	border: 0;
+	background-color: #fdc435;
+}
+
+.buttons button:last-child {
+	border: 2px solid #25282b;
+}
+
+.projects-texts {
+	font-size: 48px;
+	font-family: var(--text-PfD);
+	text-align: center;
+}
+
+.project-joga,
+.project-pen,
+.project-tel {
+	margin: 80px auto 0;
+	width: 992px;
+	background-color: white;
+	border-radius: 24px;
+	display: flex;
+	flex-direction: row;
+}
+.project-h {
+	font-size: 40px;
+	font-family: var(--text-PfD);
+}
+
+.projects p {
+	font-size: 18px;
+	color: var(--gray2);
+	font-family: var(--text-N);
+}
+
+.projects button {
+	font-size: 18px;
+	width: 150px;
+	height: 43px;
+	border-radius: 24px;
+	background-color: inherit;
+	border: 1px solid var(--gray3);
+}
+
+.project-container {
+}
