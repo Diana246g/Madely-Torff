@@ -12,7 +12,8 @@ body {
 	margin: 0 auto;
 	bottom: 0;
 	width: 1440px;
-	background-color: #f9faff;
+	/* background-color: #f9faff; */
+	background-color: #f0f0f0;
 }
 
 li {
@@ -142,15 +143,31 @@ nav p {
 	display: flex;
 	flex-direction: row;
 }
+
+.project-joga img,
+.project-tel img {
+	border-radius: 0 24px 24px 0;
+}
+
+.project-pen img {
+	border-radius: 24px 0 0 24px;
+}
+
 .project-h {
 	font-size: 40px;
 	font-family: var(--text-PfD);
+	margin: 0 24px;
 }
 
 .projects p {
 	font-size: 18px;
 	color: var(--gray2);
 	font-family: var(--text-N);
+}
+
+.project-container {
+	font-size: 40px;
+	margin: 146px 50px;
 }
 
 .projects button {
@@ -162,6 +179,44 @@ nav p {
 	border: 1px solid var(--gray3);
 }
 
-.project-container {
-	font-size: 40px;
+footer h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 72px;
+	font-family: var(--text-PfD);
+}
+
+.project-frame {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 445px;
+}
+
+.project-frame textarea,
+.project-frame input {
+	width: 100%;
+}
+
+.project-primary {
+	width: 89px;
+	height: 43px;
+	border-radius: 8px;
+	letter-spacing: 0em;
+	text-align: left;
+	border: 0;
+	background-color: #fdc435;
+}
+
+.project-primary {
+	width: 41px;
+	height: 27px;
+	/* font-family: Roboto; */
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
 }
