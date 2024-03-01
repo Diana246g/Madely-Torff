@@ -28,14 +28,6 @@ a {
 	margin: 0 auto;
 }
 
-header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 50;
-}
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -43,7 +35,7 @@ nav {
 	height: 56px;
 }
 
-nav p {
+nav .logo {
 	display: flex;
 	font-family: Comfortaa;
 	font-size: 18px;
@@ -57,23 +49,19 @@ nav p {
 	gap: 48px;
 }
 
-.header--nav li {
+.header--nav li a {
 	font-family: Raleway;
 }
 
 .intro {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
 .intro--content {
 	width: 486px;
 	margin-top: 111px;
-}
-
-.intro--UI {
-	color: #fdc435;
-	font-size: 20px;
 }
 
 .content--title {
@@ -89,44 +77,30 @@ nav p {
 	margin: 32px 0;
 }
 
-.primary,
-.buttons button:last-child {
+.primary {
 	font-size: 18px;
 	width: 115px;
 	height: 43px;
 	padding: 8px 24px;
 	border-radius: 8px;
 	color: var(--gray3);
-}
-
-.primary {
 	border: 0;
 	background-color: #fdc435;
 }
 
-.buttons button:last-child {
-	background-color: white;
-	border: 2px solid #25282b;
-}
-
-.main--decor {
-	flex-basis: 50%;
-}
-
 .main--image img {
-	position: absolute;
+	background-color: #fdc435;
+	border-radius: 50%;
 }
 
-.projects {
+footer {
+	margin-top: 148px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 250px 224px 0;
-	width: 992px;
 }
 
 .projects-texts {
-	text-align: center;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -144,60 +118,6 @@ nav p {
 	height: 4px;
 	background-color: #fdc435;
 	border-radius: 2px;
-}
-
-.project-joga,
-.project-pen,
-.project-tel {
-	margin: 80px auto 0;
-	width: 992px;
-	background-color: white;
-	border-radius: 24px;
-	display: flex;
-	flex-direction: row;
-}
-
-.project-joga img,
-.project-tel img {
-	border-radius: 0 24px 24px 0;
-}
-
-.project-pen img {
-	border-radius: 24px 0 0 24px;
-}
-
-.project-h {
-	font-size: 40px;
-	font-family: var(--text-PfD);
-	margin: 0 24px;
-}
-
-.projects p {
-	font-size: 18px;
-	color: var(--gray2);
-	font-family: var(--text-N);
-}
-
-.project-container {
-	font-size: 40px;
-	margin: 146px 50px;
-}
-
-.projects button {
-	font-size: 18px;
-	width: 150px;
-	height: 43px;
-	border-radius: 24px;
-	background-color: inherit;
-	border: 1px solid var(--gray3);
-	font-family: var(--text-RBT);
-}
-
-footer {
-	margin-top: 148px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .footer-frame {
